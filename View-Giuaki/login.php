@@ -5,7 +5,7 @@ $_SESSION["IsLogin"] = false;
 require_once('login_controller.php');
 
 // Kết nối CSDL
-$uri = "mysql://avnadmin:AVNS_bqNptNHnhS9POOS-RJs@quang-1a-webadvanced1.l.aivencloud.com:22234/test1?ssl-mode=REQUIRED";
+$uri = "mysql://avnadmin:AVNS_h_ZY-nY0n-i6diFSvdK@mysql-39b1949e-thuan200378-a39b.g.aivencloud.com:11649/defaultdb?ssl-mode=REQUIRED";
 $fields = parse_url($uri);
 $conn = "mysql:";
 $conn .= "host=" . $fields["host"];
